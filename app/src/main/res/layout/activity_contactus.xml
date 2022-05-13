@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".ContactusActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ahma"
+        android:layout_marginTop="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Crime Report "
+            android:textStyle="bold"
+            android:textColor="#0B6A10"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Contact Us"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#EBD4003C"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Number:"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahmad Subhan:+92301666788"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sheraz Hussain:+9230477700"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-Mail:"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahmad Subhan: bitm-f19-004@superior.edu.pk"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sheraz Hussain: bitm-f19-080@superior.edu.pk"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

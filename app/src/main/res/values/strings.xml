@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">crime-report-app</string>
+    <string name="create_account">Create An Account</string>
+    <string name="login"> Login </string>
+    <string name="pass_hint"> Password </string>
+    <string name="email_hint">  Email </string>
+    <string name="LogIn">LOGIN</string>
+    <string name="regstring">Register</string>
+    <string name="signup">SING UP</string>
+    <string name="country_prompt">country</string>
+</resources>

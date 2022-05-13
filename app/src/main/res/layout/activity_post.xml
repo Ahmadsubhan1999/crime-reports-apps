@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".PostActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ahma"
+        android:layout_marginTop="1dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Crime Report "
+            android:textStyle="bold"
+            android:textColor="#0B6A10"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/txt411"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Submit Here Your Report"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#EBD4003C"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:background="#0C98D8"
+            android:layout_marginTop="20dp"
+            android:hint="name"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/age1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:background="#0C98D8"
+            android:layout_marginTop="20dp"
+            android:hint="age"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/name1"/>
+
+
+        <EditText
+            android:id="@+id/gender1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:background="#0C98D8"
+            android:layout_marginTop="20dp"
+            android:hint="gender"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/age1"/>
+
+
+
+        <EditText
+            android:id="@+id/adress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#0C98D8"
+            android:hint="adress"
+            android:padding="9dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/gender1"/>
+        <EditText
+            android:id="@+id/crime1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#0C98D8"
+            android:hint="crime"
+            android:padding="9dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/adress1"/>
+
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="240dp"
+            android:text="Submit"
+            android:textSize="15dp"
+            android:layout_below="@+id/crime"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
